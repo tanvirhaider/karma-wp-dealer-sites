@@ -2148,7 +2148,6 @@ input[type="radio"] {
 
 	.footer-copy-social-container {
 		display: inline-flex;
-		padding-left: 55px;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
