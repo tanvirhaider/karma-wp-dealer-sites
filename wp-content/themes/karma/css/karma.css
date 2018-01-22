@@ -81,18 +81,27 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 }
 
 .menu-bottom-container {
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.footer-copy-social-container {
+	display: inline-flex;
+	padding-left: 55px;
+}
+
+.smb-5a661b9f10771 {
+	margin: 0px;
+}
+
+.smb-5a661b9f10771 a {
+	padding: 0px;
+	margin-bottom: 0px;
 }
 
 /* RS: added copyright */
 .copyright {
     padding-left: 55px;
-    max-width: 300px;
-    float: left;
 }
 
 .cars_for_sale-template-default.single.single-cars_for_sale .pageCenter.siteHeader {
@@ -196,26 +205,29 @@ a, a:link, a:visited {
 }
 
 footer .karma_navigation {
-	height: 250px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 63px;
-	padding-bottom: 40px;
-	box-sizing: border-box;
-	/* max-width: 1200px; */
+	display: flex;
+	margin-top: -30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
+/*
 footer .karma_navigation .pageCenter {
 	max-width: 1200px;
 }
+
+.footer .pageCenter {
+	padding: 55px 24px 51px 24px;
+}
+*/
 
 footer ul {
 	padding-left: 0px;
 }
 
 footer .socialNetworkIcons {
-	float: right;
-	width: 150px !important;
+	display: inline-flex;
+	padding-left: 20px;
 }
 
 footer .socialNetworkIcons img {
@@ -311,10 +323,6 @@ footer .socialNetworkIcons img {
 .map {
 	width: 100%;
 	min-height: 337px;
-}
-
-.footer .pageCenter {
-	padding: 55px 24px 51px 24px;
 }
 
 .banner, .articleList figurem, .commonContent .rightSide figure, .map, .articleList figure {
@@ -1544,6 +1552,7 @@ input[type="radio"] {
 		width: 100px;
 	}
 
+
 	.cars_for_sale-template-default.single.single-cars_for_sale .pageCenter {
 		width: unset;
 		min-width: unset;
@@ -1720,9 +1729,8 @@ input[type="radio"] {
 @media all and (max-width: 767px) {
 
 	footer .karma_navigation {
-		height: 230px !important;
+		margin-top: -30px;
 	}
-
 
 	.cars_for_sale-template-default.single.single-cars_for_sale .pageCenter.siteHeader {
 		height: 185px;
@@ -1747,9 +1755,6 @@ input[type="radio"] {
 	.archive.search.search-results .pageCenter .car_item .car_details-together .main_photo .photo_thumb {
 		width: 100%;
 	}
-
-	
-
 
 	.page-template.page-template-page-inventory #demon-container {
 		margin-top: 20px;
@@ -1839,7 +1844,6 @@ input[type="radio"] {
 	.karma_navigation li {
 		min-width: 90px;
 		max-width: 200px;
-		padding: unset;
 		min-height: 22px;
 		
 	}
@@ -1848,7 +1852,6 @@ input[type="radio"] {
 	.karma_navigation .menu-top-container li {
 		min-width: 115px;
 		max-width: 200px;
-		padding: unset;
 		min-height: 22px;
 		
 	}
@@ -1866,6 +1869,11 @@ input[type="radio"] {
 		
 	}
 
+	.menu-bottom-container {
+		padding-left: unset;
+		padding-right: unset;
+	}
+
 	.menu-bottom-container .menu li {
 		text-align: center;
 		
@@ -1878,18 +1886,6 @@ input[type="radio"] {
 		margin-right: auto;
 		width: 100%;
 		align-items:center;
-	}
-
-	.menu-bottom-container {
-		padding-left: unset;
-		padding-right: unset;
-	}
-
-	footer .karma_navigation {
-		padding-left: unset;
-		padding-right: unset;
-		margin-top: -30px;
-		max-width: 1200px;
 	}
 
 	#menu-bottom {
