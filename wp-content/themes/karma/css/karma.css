@@ -234,12 +234,16 @@ footer ul {
 footer .socialNetworkIcons {
 	display: inline-flex;
 	padding-left: 20px;
-	margin-top: -4px;
+	margin-top: -2px;
 }
 
 footer .socialNetworkIcons img {
 	width: 30px;
 	height: 30px;
+}
+
+.smb-5a662ce709ccc a {
+	padding: 1px;
 }
 
 .keyword_search_criteria{ 
@@ -1657,9 +1661,6 @@ input[type="radio"] {
    .cdsf_button:hover {
 	background-color: grey;
    }
-
-
-
 
    #demon-container #demon-content .cd_order_by {
 	   width: 240px;
