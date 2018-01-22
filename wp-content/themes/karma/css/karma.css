@@ -1554,16 +1554,6 @@ input[type="radio"] {
 		margin-left: unset;
 	}
 
-
-
-	footer .socialNetworkIcons {
-		margin-left: auto;
-		margin-right: auto;
-		float: unset;
-		width: 100px;
-	}
-
-
 	.cars_for_sale-template-default.single.single-cars_for_sale .pageCenter {
 		width: unset;
 		min-width: unset;
@@ -2147,7 +2137,6 @@ input[type="radio"] {
 
 	footer .socialNetworkIcons {
 		display: inline-flex;
-		padding-left: 20px;
 		margin-top: -2px;
 	}
 
@@ -2160,6 +2149,7 @@ input[type="radio"] {
 		display: inline-flex;
 		padding-left: 55px;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	
 	.smb-5a661b9f10771 {
@@ -2182,6 +2172,7 @@ input[type="radio"] {
 		flex-wrap: wrap;
 		align-content: center;
 		max-width: 300px;
+		justify-content: center;
 	}
 	.karma_navigation .menu-bottom-container li {
 		padding: 0px;
