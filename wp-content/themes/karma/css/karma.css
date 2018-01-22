@@ -275,6 +275,7 @@ footer .socialNetworkIcons img {
 .carlist {
 	flex-grow: 1;
 	padding: 10px;
+	padding-bottom: 30px;
 }
 
 .widgettitle {
