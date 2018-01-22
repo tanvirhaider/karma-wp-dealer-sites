@@ -81,13 +81,14 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 }
 
 .menu-bottom-container {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .footer-copy-social-container {
-	display: inline-flex;
-	padding-left: 55px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 2px;
 }
 
 .smb-5a661b9f10771 {
@@ -209,6 +210,10 @@ footer .karma_navigation {
 	margin-top: -30px;
 	padding-bottom: 30px;
 	padding-top: 30px;
+}
+
+footer .karma_navigation .pageCenter  {
+	width: 50%;
 }
 
 footer .karma_navigation .pageCenter hr {   
@@ -1895,18 +1900,6 @@ input[type="radio"] {
 		width: 100%;
 		align-items:center;
 	}
-
-	#menu-bottom {
-		width: 70%;
-		margin-left: auto;
-		margin-right: auto;
-		display: flex;
-		flex-wrap: wrap;
-		align-content: center;
-		justify-content: space-between;
-		max-width: 300px;
-	}
-
 }
 
 @media all and (min-width: 768px) {	
@@ -2131,5 +2124,71 @@ input[type="radio"] {
 	.single-car-option-box {
 		width: 100%;
 		height: 45%;
+	}
+}
+
+/* Mobile Footer */
+
+@media all and (max-width: 767px) {
+	.menu-bottom-container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	footer .karma_navigation .pageCenter hr {   
+		border: 0px;
+		border-bottom: 1px solid #777777;
+	}
+
+	footer .karma_navigation {
+		display: flex;
+		margin-top: -30px;
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+
+	.copyright {
+		padding-left: 0px;
+	}
+
+	footer .socialNetworkIcons {
+		display: inline-flex;
+		padding-left: 20px;
+		margin-top: -2px;
+	}
+
+	footer .socialNetworkIcons img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.footer-copy-social-container {
+		display: inline-flex;
+		padding-left: 55px;
+		flex-wrap: wrap;
+	}
+	
+	.smb-5a661b9f10771 {
+		margin: 0px;
+	}
+	
+	.smb-5a661b9f10771 a {
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.smb-5a662ce709ccc a {
+		padding: 1px;
+	}
+	#menu-bottom {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		max-width: 300px;
+	}
+	.karma_navigation .menu-bottom-container li {
+		padding: 0px;
 	}
 }
