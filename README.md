@@ -1,4 +1,3 @@
 # karma-wp-dealer-sites
 Karma Dealer WP sites
-v2.1
-Test 1
+v2.2

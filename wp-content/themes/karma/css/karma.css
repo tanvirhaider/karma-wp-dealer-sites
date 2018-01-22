@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'NexaLight';
-	src:  url('../fonts/NexaLight.svg') format('svg'), url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaLight.otf') format('opentype'), url('../fonts/NexaLight.woff') format('woff'), url('../fonts/NexaLight.ttf') format('truetype');
+	src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaLight.otf') format('opentype'), url('../fonts/NexaLight.woff') format('woff'), url('../fonts/NexaLight.ttf') format('truetype'), url('../fonts/NexaLight.svg#NexaLight') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -116,9 +116,7 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 
 .karma_navigation {
 	text-transform: uppercase;
-	font-size: 100%;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
@@ -216,7 +214,6 @@ footer ul {
 footer .socialNetworkIcons {
 	float: right;
 	width: 150px !important;
-	text-align: right;
 }
 
 footer .socialNetworkIcons img {
@@ -828,11 +825,7 @@ select {
 	transform-origin: 0 0;
 	transform: rotate(-45deg);
 	-webkit-box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4) box-shadow : -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
-}
-#iw-container .iw-title {
-	padding: 12px 24px 12px 12px;
-	background: #ea3d31;
+	-moz-box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4) box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
 }
 #iw-container h2 {
 	font-family: 'Nexa';
@@ -841,7 +834,7 @@ select {
 	font-size: 14px;
 	letter-spacing: 2px;
 	line-height: 14px;
-	padding:0px;
+	padding: 12px 0 12px 12px;
 	margin: 0px;
 	border: none;
 	text-transform: uppercase;
@@ -1175,7 +1168,7 @@ tbody tr:nth-child(1), tbody tr:nth-child(2) {
 
 
 .single-car-option-box {
-	height: unset;
+	height: 60%;
 	width: 600px;
 }
 
@@ -1186,6 +1179,7 @@ tbody tr:nth-child(1), tbody tr:nth-child(2) {
 	letter-spacing:8px; 
 	font-weight:200; 
 	margin-top: 10px;
+	clear: both;
 }
 
 .car_features_content {
@@ -1270,11 +1264,11 @@ td strong {
 	height: 1px;
 	background-color: #b7b7b7;
 	margin-top: 5px;
-
 	text-align: left;
 	font-size: 22px; 
 	letter-spacing:8px; 
 	font-weight:200; 
+
 	/* margin-top: 10px; */
 	margin:14px 0 14px 0;
 }
@@ -1390,12 +1384,6 @@ input[type="radio"] {
 .bannerHolder .contentHolder, .flex-control-nav, .inputHolder ul {
 	position: absolute;
 }
-
-
-
-
-
-
 
 
 .page-template.page-template-page-contact h2 {
@@ -1805,10 +1793,6 @@ input[type="radio"] {
 		margin-top: 290px;
 	}
 
-	.car_features_content p{
-		width: 60%;
-	}
-
 	#logo-desktop {
 		display: none;
 	}
@@ -1866,14 +1850,9 @@ input[type="radio"] {
 		
 	}
 
-
-	
-
 	header .karma_navigation .menu {
 		max-width: 300px;
 	}
-
-
 
 	.menu-top-container .menu li a{
 		text-align: center;
@@ -1921,9 +1900,6 @@ input[type="radio"] {
 		max-width: 300px;
 	}
 
-
-
-	
 }
 
 @media all and (min-width: 768px) {	
@@ -1956,21 +1932,197 @@ input[type="radio"] {
 }
 
 
-.page-template.page-template-page-inventory footer .pageCenter hr, .page-template-default.page.page-id-800 footer .pageCenter hr, .page-template-default.page.page-id-844 footer hr {
+.page-template.page-template-page-inventory footer .pageCenter hr, .page-template-default.page.page-id-800 footer .pageCenter hr, .page-template-default.page.page-id-800 footer hr {
 	width: 100% !important;
 	display: block !important;
 }
-.weeklyTimeStyle .weeklyContactList {
-	width: auto;	
+
+.page-template.page-template-page-services h2, .page-template.page-template-page-services h3 {
+	text-transform: uppercase;
 }
-span.day-of-week {
-    padding-right: 10px;
+
+.page-template-page-services h2 {
+	margin: 38px 0 4px 0 !important;
 }
-span.time-of-week {
-	white-space: nowrap;
+
+.page-template-page-services hr {   
+        border: 0px;
+	border-bottom: 1px solid #777777;
 }
-.fake-class {
-//nothing to see here. added staging server support. hi aaron.
+
+.page-template-page-services h3 {
+	font-size: 19px;
+	letter-spacing: 4px;
+        padding-top: 30px;
+	padding-bottom: 0px;      
+}
+
+.page-template.page-template-page-services h2 {
+	padding-top: unset;
+}
+
+.page-template.page-template-page-services .page-template.page-template-page-services .pageCenter hr {
+	width: 100%;
+}
+
+.page-template.page-template-page-services .contactPageMain {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page-template.page-template-page-services .contactForm .btnMore {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-template.page-template-page-services .contactPageMain.pageCenter .addressHolder {
+    width: 100%;
 }
 
 
+
+
+/* START More Info Page IE Fix */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS here */
+    #social_row {
+		background-color: #fff;
+		float: left;
+		margin-left: 23px;
+		width: 340px;
+		padding-top: 5px;
+    }
+
+	.kar_thumbs {
+		border: solid;
+		border-width: 0px;
+		border-color: #333;
+		margin-right: 3px;
+	}
+
+	.decode_table_header {
+			color: black;
+			background-color: #FFF;
+	}
+
+	.car_features_content {
+		display: block;
+		font-family: 'NexaLight';
+		font-size: 12px;
+		height: auto;
+		min-height: unset;
+		padding: unset;
+		padding-bottom: 15px;
+		margin-bottom: -90px; 
+		margin-left: -10px;
+	}
+
+	.pageCenter .single-car-for-sale .colwrap2 {
+	    width: 33%;
+    }
+
+    .pageCenter .single-car-for-sale .colwrap2 .single-car-details {
+	    width: 88%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    font-size: 14px;
+        background-color: unset !important;
+	    padding-bottom: 10px;
+	    margin-top: -30px;
+    }    
+
+   .single-car-for-sale {
+		width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+    .single-car-for-sale .cd_pro .main_photo_pro_img {
+		margin: 5px;
+		height: 256px;
+		width: 345px;
+	}
+
+    .single-car-for-sale, .single-car-for-sale div, .single-car-for-sale ul, .single-car-for-sale li {
+	    box-sizing: content-box;
+    }
+    
+    .single-car-for-sale li:before {
+	    content: none;
+	    text-decoration: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .single-car-for-sale ul {
+	    padding: 0px;
+    }
+
+    .single-car-for-sale ul li {
+        text-decoration: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .single-car-for-sale img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.single-car-option-box {
+		position: relative;
+		margin-bottom: 2px;
+		margin-top: 2px;
+		height: 65%;
+		width: 600px;
+		margin-bottom: -120px;
+	}
+
+	.colwrap1 {
+		float: left;
+		margin-left: 0px;
+		margin-top: 0px;
+		width: 66%;
+		height: 480px;
+	}
+
+	.colwrap1 img {
+		width: unset;
+	}
+
+	
+}
+
+/* Mobile Fix single-car-option-box */
+
+@media all and (max-width: 767px) {
+	.single-car-option-box {
+		width: 100%;
+		height: 30%;
+	}
+}
+
+/* Mobile Fix Car Description Alignment */
+
+@media all and (max-width: 490px) {
+	.single-car-option-box {
+		width: 100%;
+		height: 35%;
+	}
+}
+
+@media all and (max-width: 384px) {
+	.single-car-option-box {
+		width: 100%;
+		height: 40%;
+	}
+}
+
+@media all and (max-width: 325px) {
+	.single-car-option-box {
+		width: 100%;
+		height: 45%;
+	}
+}
