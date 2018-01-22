@@ -1126,7 +1126,6 @@
 	Social Links
 	*/
 	#social_row {
-		background-color: #aaa;
 		float: left;
 		margin-left: 23px;
 		width: 340px;
@@ -1230,9 +1229,8 @@ All Widths
 	}
 	.cdsp_thumbs {
 		height: 70px;
-		width: 95px;
 		border: solid;
-		border-width: 1px;
+		border-width: 0px;
 		border-color: #333;
 		margin-right: 3px;
 	}
@@ -1738,7 +1736,6 @@ All Widths
     }
     .decode_table_header {
         color: black;
-        background-color: #CCCCCC;
     }
     .decode_disclaimer {
         max-width: 580px;
