@@ -89,7 +89,6 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 	display: flex;
 	justify-content: space-between;
 	padding-left: 2px;
-	justify-content: center;
 }
 
 .smb-5a661b9f10771 {
@@ -2139,6 +2138,7 @@ input[type="radio"] {
 	footer .socialNetworkIcons {
 		display: inline-flex;
 		margin-top: -2px;
+		padding-left: 0px;
 	}
 
 	footer .socialNetworkIcons img {
