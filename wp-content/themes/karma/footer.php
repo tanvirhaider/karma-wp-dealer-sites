@@ -6,7 +6,7 @@
 					<!-- RS: added copyright //-->
                     <div class="footer-copy-social-container">
 						<div class="copyright">
-							Karma Automotive™ 2017
+							Karma Automotive™ 2018
 						</div>
 						<div class="socialNetworkIcons">
 							<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("social_button_panel") ) : ?><?php endif;?>
