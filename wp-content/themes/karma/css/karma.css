@@ -100,11 +100,6 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 	margin-bottom: 0px;
 }
 
-/* RS: added copyright */
-.copyright {
-    padding-left: 0px;
-}
-
 .cars_for_sale-template-default.single.single-cars_for_sale .pageCenter.siteHeader {
     max-width: 1200px;
     margin-left: auto;
@@ -208,8 +203,8 @@ a, a:link, a:visited {
 footer .karma_navigation {
 	display: flex;
 	margin-top: -30px;
-	padding-bottom: 30px;
-	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 footer .karma_navigation .pageCenter  {
@@ -2147,7 +2142,7 @@ input[type="radio"] {
 	}
 
 	.copyright {
-		padding-left: 0px;
+		padding-left: 3px;
 	}
 
 	footer .socialNetworkIcons {
