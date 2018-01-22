@@ -211,6 +211,12 @@ footer .karma_navigation {
 	padding-top: 30px;
 }
 
+footer .karma_navigation .pageCenter hr {   
+	border: 0px;
+	border-bottom: 1px solid #777777;
+}
+
+
 /*
 footer .karma_navigation .pageCenter {
 	max-width: 1200px;
@@ -1947,7 +1953,7 @@ input[type="radio"] {
 
 .page-template-page-services hr {   
         border: 0px;
-	border-bottom: 1px solid #777777;
+		border-bottom: 1px solid #777777;
 }
 
 .page-template-page-services h3 {
