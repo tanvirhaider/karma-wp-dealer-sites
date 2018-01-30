@@ -318,6 +318,8 @@ footer .socialNetworkIcons img {
 
 .locationHolder h2 {
 	padding: 0 0 20px 8px;
+    border-bottom: 1px solid #777777;   
+    text-transform: uppercase;
 }
 
 .getDirection {
