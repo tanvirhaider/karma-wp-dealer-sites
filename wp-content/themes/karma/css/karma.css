@@ -1,18 +1,18 @@
 @font-face {
 	font-family: 'NexaLight';
-	src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaLight.otf') format('opentype'), url('../fonts/NexaLight.woff') format('woff'), url('../fonts/NexaLight.ttf') format('truetype'), url('../fonts/NexaLight.svg#NexaLight') format('svg');
+	src: url('./wp-content/themes/karma/fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/NexaLight.otf') format('opentype'), url('./wp-content/themes/karma/fonts/NexaLight.woff') format('woff'), url('./wp-content/themes/karma/fonts/NexaLight.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/NexaLight.svg#NexaLight') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'NexaBold';
-	src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaBold.otf') format('opentype'), url('../fonts/NexaBold.woff') format('woff'), url('../fonts/NexaBold.ttf') format('truetype'), url('../fonts/NexaBold.svg#NexaBold') format('svg');
+	src: url('./wp-content/themes/karma/fonts/NexaBold.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/NexaBold.otf') format('opentype'), url('./wp-content/themes/karma/fonts/NexaBold.woff') format('woff'), url('./wp-content/themes/karma/fonts/NexaBold.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/NexaBold.svg#NexaBold') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Nexa';
-	src: url('../fonts/Nexa.eot?#iefix') format('embedded-opentype'), url('../fonts/Nexa.woff') format('woff'), url('../fonts/Nexa.ttf') format('truetype'), url('../fonts/Nexa.svg#Nexa') format('svg');
+	src: url('./wp-content/themes/karma/fonts/Nexa.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/Nexa.woff') format('woff'), url('./wp-content/themes/karma/fonts/Nexa.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/Nexa.svg#Nexa') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -318,8 +318,6 @@ footer .socialNetworkIcons img {
 
 .locationHolder h2 {
 	padding: 0 0 20px 8px;
-	margin-left: 40px;
-	margin-right: 40px;
 }
 
 .getDirection {
@@ -1421,12 +1419,11 @@ input[type="radio"] {
 	margin-right: auto;
 }
 
-.contactPageMain {
-	max-width: 1200px;
+.leasePageMain {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 50px;
-	padding-right: 50px;
+	width: 94%;
+	padding-top: 50px;
 }
 
 #label_price_range, #price_range_box, #label_miles_range, #mileage_range_box, #price_range, #price-slider, #miles_range {
@@ -1468,7 +1465,6 @@ input[type="radio"] {
 .pageCenter H2 {
 	max-width: 1200px;
 	width: 83%;
-	margin-left: auto;
 	margin-right: auto;
 	/* padding-left: 50px;
 	padding-right: 50px; */
@@ -1761,7 +1757,7 @@ input[type="radio"] {
 	}
 	
 
-	.page-template.page-template-page-contact .contactPageMain {
+	.page-template.page-template-page-contact .leasePageMain {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -1783,7 +1779,7 @@ input[type="radio"] {
 	}
 
 
-	.page-template.page-template-page-contact .contactPageMain.pageCenter .addressHolder {
+	.page-template.page-template-page-contact .leasePageMain.pageCenter .addressHolder {
 		width: 100%;
 	}
 
@@ -1952,7 +1948,7 @@ input[type="radio"] {
 	width: 100%;
 }
 
-.page-template.page-template-page-services .contactPageMain {
+.page-template.page-template-page-services .leasePageMain {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -1963,7 +1959,7 @@ input[type="radio"] {
     margin-bottom: 20px;
 }
 
-.page-template.page-template-page-services .contactPageMain.pageCenter .addressHolder {
+.page-template.page-template-page-services .leasePageMain.pageCenter .addressHolder {
     width: 100%;
 }
 
@@ -2179,4 +2175,759 @@ input[type="radio"] {
 	.karma_navigation .menu-bottom-container li {
 		padding: 0px;
 	}
+}
+
+
+
+
+
+
+/* START Lease Page #### */
+
+.leasing-page-container {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Nexa';
+  margin: 0 auto;
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+  max-width: 2000px;
+  background-color: #000;
+}
+
+.lease-page-top-nav {
+  background-color: #000;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 2000px;
+}
+
+.date-car-row {
+  padding-bottom: 30px;
+  margin-top: 15px;
+}
+
+.date-car-row h3 {
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'NexaThin', 'Nexa';
+  letter-spacing: 6.66px;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.date-car-row h4 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'NexaThin', 'Nexa';
+  letter-spacing: 6.66px;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+}
+
+.terms-title-row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.terms-title-row h2 {
+  font-size: 18px;
+  font-family: 'NexaLight';
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title-row {
+  max-width: 273px;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+
+.title-row h2 {
+  font-size: 14px;
+  font-family: 'NexaLight';
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.price-table-row {
+  display: table;
+  width:auto;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Nexa';
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  padding-bottom: 3%;
+}
+
+/* Mobile Price Table Fix */
+.mobile-price-table-container {
+  width: 100%;
+}
+
+.mobile-price-table {
+  width: 100%;
+  color: #fff;
+}
+
+.mobile-price-table-row {
+  width: 100%;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Nexa';
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+
+.mobile-price-table-row td {
+  width: 200px;
+  text-align: center;
+}
+
+.mobile-price-table-title {
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+}
+
+.mobile-price-table-cell {
+  width: 200px;
+  text-align: center;
+}
+
+.price-table-cell {
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;
+  width:100px;
+  text-align: center !important;
+}
+
+.table-title {
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;
+  width:220px;
+  margin-right: 34px;
+  border-right: 1px solid;
+  border-color: white;
+}
+
+.monthly-table-title {
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;
+  width:220px;
+  margin-right: 34px;
+  border-right: 1px solid;
+  border-color: white;
+}
+.apr-table-title {
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;
+  width:220px;
+  margin-right: 34px;
+  border-right: 1px solid;
+  border-color: white;
+}
+
+.monthly-payment {
+  display:table-row;
+  width:auto;
+}
+
+.leasing-terms {
+  display:table-row;  
+  width:auto;
+}
+
+.annual-mileage {
+  display:table-row;
+  width:auto;
+}
+
+.apr {
+  display:table-row;
+  width:auto;
+}
+
+.button-row {
+  display: inline-flex;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.button-row a {
+	color: black;
+}
+
+.lease-page-button {
+  text-transform: uppercase;
+  border: 1px solid #000;
+  /* Arrow on right side of button */
+  /*    background: url(../img/icons/nav-arrow-white-right.png) no-repeat 92% center; */
+  background-size: 10px 20px;
+  width: 250px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px !important;
+  text-align: center;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.disclaimer-table-row {
+  padding-top: 30px;
+}
+
+.disclaimer-table-row p {
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  font-family: 'Nexa';
+  font-weight: 400;
+}
+
+.leasing-page-hr hr {
+  width: 50%;
+}
+
+.price-car-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car-price-col {
+  width: 200px;
+  order: 1;
+}
+
+.price-per-month p {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 4.44px;
+}
+
+.tax-36-month {
+  float: right;
+}
+
+.tax-36-month p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 3.33px;
+  font-family: 'NexaThin', 'Nexa';
+}
+
+.car-image-col {
+  width: 72%;
+  display: flex;
+  justify-content: flex-end; /* align horizontal */
+  align-items: center; /* align vertical */
+  margin-left:auto; 
+  margin-right:0;
+  margin-left: 24%;
+  order: 2;
+}
+
+.car-image-col img { 
+  width: 100%;
+  margin-top: -14%;
+}
+
+.black-bg-color {
+  background-color: #000;
+}
+
+.leasing-page-2000px-max-width {
+  max-width: 2000px;
+}
+
+/* START Lease Page Mobile */ 
+@media only screen and (min-width: 1px) and (max-width: 597px) {
+  .price-car-row {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button-row {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-left: 6.5%;
+  }
+  .car-image-col {
+    width: 110%;
+    margin-left: -5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .car-image-col img {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .table-title {
+    display:table-column;
+    width: 98%;
+    margin-right: 0px;
+    border-right: 0px;
+    border-color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font-weight: bold;
+  }
+
+  .monthly-table-title {
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    width:220px;
+    margin-right: 34px;
+    border-color: white;
+  }
+
+  .apr-table-title {
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    width:220px;
+    margin-right: 34px;
+    border-color: white;
+  }
+  .price-table-row {
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .price-table-cell {
+    width: 100%;
+  }
+  .monthly-payment {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .leasing-terms {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    text-align: center;
+  }
+  .lease-page-button {
+    margin-right: 0px;
+  }
+  .annual-mileage {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .apr {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    text-align: center;
+  }
+  .terms-title-row {
+    width: 100%;
+    text-align: center;
+  }
+  .disclaimer-table-row {
+	width: 100%;
+	padding-left: 7%;
+  }
+}
+@media only screen and (min-width: 1px) and (max-width: 780px) {
+  .price-car-row {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button-row {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-left: 6.5%;
+  }
+  .car-image-col {
+    width: 110%;
+    margin-left: -5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .car-image-col img {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .table-title {
+    display:table-column;
+    width: 98%;
+    margin-right: 0px;
+    border-right: 0px;
+    border-color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    line-height: 17px;
+  }
+
+  .monthly-table-title {
+    display:table-column;
+    width: 98%;
+    margin-right: 0px;
+    border-right: 0px;
+    border-color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    line-height: 17px;
+  }
+  .apr-table-title {
+    display:table-column;
+    width: 98%;
+    margin-right: 0px;
+    border-right: 0px;
+    border-color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    line-height: 17px;
+  }
+
+  .price-table-row {
+    font-size: 12px;
+    width: 100%;
+	margin: 0 auto;
+	line-height: 20px;
+  }
+  .price-table-cell {
+    width: 100%;
+  }
+  .monthly-payment {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .leasing-terms {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .annual-mileage {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .apr {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .terms-title-row {
+    width: 100%;
+    text-align: center;
+  }
+  .disclaimer-table-row {
+	width: 100%;
+	padding-left: 7%;
+  }
+}
+@media only screen and (min-width: 781px) and (max-width: 991px) {
+  .price-car-row {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .car-image-col {
+    width: 110%;
+    margin-left: -5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .car-image-col img {
+    margin-top: 0px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1080px) {
+  .price-car-row {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .car-image-col {
+    width: 110%;
+    margin-left: -5%;
+  }
+  .car-image-col img {
+    margin-top: 0px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1081px) and (max-width: 1920px) {  
+  .price-car-row {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  }
+}
+  
+@media only screen and (min-width: 314px) and (max-width: 365px) {
+  .monthly-table-title {
+    padding-bottom: 17px;
+  }
+}
+
+@media only screen and (min-width: 223px) and (max-width: 280px) {
+  .apr-table-title {
+    padding-bottom: 17px;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 222px) {
+  .monthly-table-title {
+    padding-bottom: 17px;
+  }
+  .apr-table-title {
+    padding-bottom: 17px;
+  }
+}
+
+/* Do not display .price-table-row under 1024px */
+@media only screen and (min-width: 1px) and (max-width: 780px) {
+  .price-table-row {
+    display: none;
+  }
+}
+
+/* Do not display mobile-price-table-container over 1024px */
+@media only screen and (min-width: 781px) {
+  .mobile-price-table-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1400px) {  
+  .car-image-col {
+    width: 60%;
+  }
+}  
+
+@media only screen and (min-width: 1600px) {  
+  .car-image-col {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {  
+  .car-image-col {
+    width: 50%;
+  }
+}
+/* START IE Fixes */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { 
+  .car-image-col {
+    display: block;
+    margin-top: -40px;
+  }
+  .price-car-row {
+    flex-direction: row;
+  }
+  .terms-title-row {
+    margin-top: -50px;
+  }
+}
+
+/* Add new fonts */
+
+@font-face {
+  font-family: 'NexaThin';
+  src: url('./wp-content/themes/karma/fonts/NexaThin.eot?');
+  src: url('./wp-content/themes/karma/fonts/NexaThin.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/NexaThin.otf') format('opentype'), url('./wp-content/themes/karma/fonts/NexaThin.woff') format('woff'), url('./wp-content/themes/karma/fonts/NexaThin.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/NexaThin.svg#NexaThin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('./wp-content/themes/karma/fonts/NexaLight.eot');
+  src: url('./wp-content/themes/karma/fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/NexaLight.woff') format('woff2'), url('./wp-content/themes/karma/fonts/Nexa Light-webfont.woff') format('woff'), url('./wp-content/themes/karma/fonts/NexaLight.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/NexaLight.svg#nexa_lightregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa Black Italic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_0_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_0_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_0_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_0_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_0_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_0_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Black';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_2_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_2_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_2_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_2_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_2_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_2_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Bold Italic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_3_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_3_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_3_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_3_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_3_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_3_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_4_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_4_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_4_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_4_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_4_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_4_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Book Italic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_5_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_5_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_5_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_5_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_5_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_5_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Book';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_6_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_6_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_6_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_6_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_6_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_6_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Heavy Italic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_7_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_7_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_7_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_7_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_7_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_7_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Heavy';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_8_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_8_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_8_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_8_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_8_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_8_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Light Italic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_9_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_9_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_9_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_9_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_9_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_9_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_A_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_A_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_A_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_A_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_A_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_A_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa-RegularItalic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_B_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_B_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_B_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_B_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_B_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_B_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_C_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_C_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_C_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_C_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_C_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_C_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa Thin Italic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_D_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_D_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_D_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_D_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_D_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_D_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa XBoldItalic';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_E_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_E_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_E_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_E_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_E_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_E_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Nexa XBold';
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_F_0.eot');
+  src: url('./wp-content/themes/karma/fonts/webfont/nexa/304916_F_0.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_F_0.woff2') format('woff2'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_F_0.woff') format('woff'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_F_0.ttf') format('truetype'), url('./wp-content/themes/karma/fonts/webfont/nexa/304916_F_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./wp-content/themes/karma/fonts/slick.eot');
+  src: url('./wp-content/themes/karma/fonts/slick.eot?#iefix') format('embedded-opentype'), url('./wp-content/themes/karma/fonts/slick.woff') format('woff'), url('./wp-content/themes/karma/fonts/slick.ttf') format('truetype'), url('fonts/slick.svg#slick') format('svg');
+}
+
+.lease-section-position-container {
+	background-color: #fff;
+	width: 82.5%;
+	padding-left: 3%;
+	padding-top: 2%;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 780px) {
+	.lease-section-position-container {
+		width: 87.5%;
+		padding-left: 0%;
+		padding-top: 5%;
+	}	
+	.lease-page-button {
+		justify-content: center;
+		display: flex; 
+	}
+	.disclaimer-table-row {
+		width: 100%;
+		padding-top: 5%;
+		padding-left: 7%;
+	}
+	.leasePageMain {
+		padding-top: 4%;
+		padding-left: 50px;
+		padding-right: 50px;
+		width: auto;
+	}
+	.title-row {
+		padding-top: 7%;
+	}
+	.mobile-price-table-container {
+		padding-bottom: 7%;
+	}
+}
+
+.lease-section-style-container {
+	color: #fff;
+}
+
+.title1 { 
+	text-transform: uppercase;
 }
