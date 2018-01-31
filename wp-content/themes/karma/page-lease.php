@@ -22,14 +22,14 @@ get_header(); ?>
         <div class="country-selection-overlay_content">
             <div class="country-selection-overlay_header">
                 <h2>Select your region to continue</h2>
-                <img src="" />
+                <img width="100" class="country-gradientline" src="./wp-content/themes/karma/img/icons/GradientLine.png">
             </div>
             <div class="country-selection-overlay_button_row">
                 <div class="country-selection-overlay_button_USA">
-                    <span>Ready to Drive</span>
+                    <span>United States</span>
                 </div>
                 <div class="country-selection-overlay_button_CAN">
-                    <span>Ready to Drive</span>
+                    <span>Canada</span>
                 </div>
             </div><!-- Close Overlay Button Row -->
         </div>
@@ -156,24 +156,25 @@ get_header(); ?>
     <script>
     // Get the modal
     var modal = document.getElementById('country-selection-overlay');
+    var hide = document.getElementsByClassName('cad-pricing-toggle');
 
     // Get the <span> element that closes the modal
-    var usa = document.getElementsByClassName("country-selection-overlay_button_USA")[0];
-    var can = document.getElementsByClassName("country-selection-overlay_button_CAN")[0];
-    var hide = document.getElementsByClassName("cad-pricing-toggle")[0];
+    var usa = document.getElementsByClassName('country-selection-overlay_button_USA')[0];
+    var can = document.getElementsByClassName('country-selection-overlay_button_CAN')[0];
 
     // When the user clicks on the button it closes the overlay
     usa.onclick = function() {
-        modal.style.display = "none";
+        var i;
+            for (i = 0; i < hide.length; i++) {
+            hide[i].style.display = "none";
+            };
+        modal.style.display = "none";            
     }
 
     can.onclick = function() {
         modal.style.display = "none";
     }
 
-    hide.onclick = function() {
-        modal.style.display = "none";
-    }
     </script>
 
 <!-- END Overlay Script -->
