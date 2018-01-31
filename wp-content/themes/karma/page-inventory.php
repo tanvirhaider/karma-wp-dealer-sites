@@ -5,9 +5,9 @@
 get_header(); ?>
 
 
-<div class="pageCenter">
+<div class="inventoryPageMain">
 	<h2><?php the_title(); ?></h2>
-	<hr />
+	<hr>
 
 	<div class="main_container">
 		<div class="sidebar">
