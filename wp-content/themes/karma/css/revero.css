@@ -400,7 +400,12 @@ img {
 
 
 @media all and (max-width: 767px) {
-
+    .award_logo {
+        top: -256px !important;
+        width: 90px !important;
+        height: 90px !important;
+        content: url(http://thegocostaging.com/karma/staging/karma_pasadena/wp-content/uploads/2018/01/GreenCar_logo_blk@2x.png);
+    }
 
     .slideStyle {
         color: white;

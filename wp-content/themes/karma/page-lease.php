@@ -16,6 +16,25 @@ get_header(); ?>
 
 <!-- START Lease Page Container -->
 <div class="lease-section-position-container">
+    
+    <!-- START Country Selection Overlay -->
+    <div id="country-selection-overlay">
+        <div class="country-selection-overlay_content">
+            <div class="country-selection-overlay_header">
+                <h2>Select your region to continue</h2>
+                <img src="" />
+            </div>
+            <div class="country-selection-overlay_button_row">
+                <div class="country-selection-overlay_button_USA">
+                    <span>Ready to Drive</span>
+                </div>
+                <div class="country-selection-overlay_button_CAN">
+                    <span>Ready to Drive</span>
+                </div>
+            </div><!-- Close Overlay Button Row -->
+        </div>
+    </div> <!-- END Country Selection Overlay -->
+
     <div class="lease-section-style-container">
         <!-- START Lease Section -->
         <section class="bg-color leasing-page-2000px-max-width">
@@ -31,7 +50,7 @@ get_header(); ?>
                 <div class="price-car-row">
                     <div class="car-price-col">
                         <div class="price-per-month">
-                            <p><strong>$1,299/mo*</strong></p>
+                            <p><strong>$<span class="cad-pricing-toggle">CAD </span>1,299/mo*</strong></p>
                         </div>
                         <div class="tax-36-month">
                             <p>+tax/36 mos.</p>
@@ -48,10 +67,10 @@ get_header(); ?>
                 <div class="price-table-row hide-on-mobile">
                     <div class="monthly-payment">
                         <div class="monthly-table-title">Monthly Payment</div>
-                        <div class="price-table-cell">$1,399</div>
-                        <div class="price-table-cell"><strong>$1,299</strong></div>
-                        <div class="price-table-cell">$1,199</div>
-                        <div class="price-table-cell">$1,099</div>
+                        <div class="price-table-cell">$<span class="cad-pricing-toggle">CAD </span>1,399</div>
+                        <div class="price-table-cell"><strong>$<span class="cad-pricing-toggle">CAD </span>1,299</strong></div>
+                        <div class="price-table-cell">$<span class="cad-pricing-toggle">CAD </span>1,199</div>
+                        <div class="price-table-cell">$<span class="cad-pricing-toggle">CAD </span>1,099</div>
                     </div><!-- CLOSE Monthly Payment -->
                     <div class="leasing-terms">
                         <div class="table-title">Leasing Term (mos)</div>
@@ -84,19 +103,19 @@ get_header(); ?>
                     <th class="mobile-price-table-title">Leasing Term (mos)</th>
                     </tr>
                     <tr class="mobile-price-table-row">
-                    <td>$1,399</td>
+                    <td>$<span class="cad-pricing-toggle">CAD </span>1,399</td>
                     <td>24</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>$1,299</td>
+                        <td>$<span class="cad-pricing-toggle">CAD </span>1,299</td>
                         <td>36</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>$1,199</td>
+                        <td>$<span class="cad-pricing-toggle">CAD </span>1,199</td>
                         <td>48</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>$1,099</td>
+                        <td>$<span class="cad-pricing-toggle">CAD </span>1,099</td>
                         <td>60</td>
                     </tr>
                     <tr class="mobile-price-table-row">
@@ -126,14 +145,39 @@ get_header(); ?>
         </section><!-- END Lease Section -->
     </div><!-- END lease-section-style-container -->
     <div class="disclaimer-table-row"><!-- START Disclaimer Row -->
-        <p class="">*MSRP $150,800. Min Down Payment $5,000 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+        <p class="">*MSRP $<span class="cad-pricing-toggle">CAD </span>150,800. Min Down Payment $5,000 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
     </div><!-- END Disclaimer Row -->
     <div class="button-row">
         <a href="/drive/"><div class="lease-page-button">Ready to Drive</div></a>
     </div>
 </div><!-- END Lease Section Position Container -->
 
+<!-- START Overlay Script -->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('country-selection-overlay');
+
+    // Get the <span> element that closes the modal
+    var usa = document.getElementsByClassName("country-selection-overlay_button_USA")[0];
+    var can = document.getElementsByClassName("country-selection-overlay_button_CAN")[0];
+    var hide = document.getElementsByClassName("cad-pricing-toggle")[0];
+
+    // When the user clicks on the button it closes the overlay
+    usa.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    can.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    hide.onclick = function() {
+        modal.style.display = "none";
+    }
+    </script>
+
+<!-- END Overlay Script -->
+
 <?php include(locate_template('template_part/map.php')); ?>
 
 <?php get_footer(); ?>
-

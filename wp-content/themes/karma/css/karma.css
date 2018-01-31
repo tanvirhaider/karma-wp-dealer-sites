@@ -2933,3 +2933,110 @@ input[type="radio"] {
 .title1 { 
 	text-transform: uppercase;
 }
+
+#country-selection-overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Visible by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.country-selection-overlay_content {
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: white;
+}
+
+.country-selection-overlay_button_row {
+	width: 100%;
+	justify-content: center;
+}
+
+.country-selection-overlay_button_USA {
+	font-family: 'Nexa';
+	font-size: 16px;
+	cursor: pointer; /* Add a pointer on hover */
+	display: flex;
+	width: 50%;
+	height: 26px;
+	border: 1px solid #FFF;
+	background: url(../img/icons/arrow-w.png) no-repeat 95% center;
+	background-size: 20px 18px;
+	-webkit-transition: background 0.5 ease-in-out;
+	transition: background 0.5 ease-in-out;
+	margin: 30px auto;
+}
+
+.country-selection-overlay_button_CAN {
+	font-family: 'Nexa';
+	font-size: 16px;
+	cursor: pointer; /* Add a pointer on hover */
+	display: flex;
+	width: 50%;
+	height: 26px;
+	border: 1px solid #FFF;
+	background: url(../img/icons/arrow-w.png) no-repeat 95% center;
+	background-size: 20px 18px;
+	-webkit-transition: background 0.5 ease-in-out;
+	transition: background 0.5 ease-in-out;
+	margin: 30px auto;
+}
+
+.country-selection-overlay_button_USA span {
+	display: block;
+    width: 90%;
+    height: 100%;
+    letter-spacing: 3px!important;
+    text-transform: uppercase;
+	border-right: 1px solid #fff;
+	color: #fff;
+	font-family: 'NexaThin', 'Nexa';
+    font-size: 12px;
+    font-weight: 300;
+	line-height: 26px;
+	padding-left: 20px;
+	background: url(../img/icons/arrow-w.png) no-repeat 95% center;
+}
+
+.country-selection-overlay_button_CAN span {
+	display: block;
+    width: 90%;
+    height: 100%;
+    letter-spacing: 3px!important;
+    text-transform: uppercase;
+	border-right: 1px solid #fff;
+	color: #fff;
+	font-family: 'NexaThin', 'Nexa';
+    font-size: 12px;
+    font-weight: 300;
+	line-height: 26px;
+	padding-left: 20px;
+	background: url(../img/icons/arrow-w.png) no-repeat 95% center;
+}
+
+.country-selection-overlay_button_row a {
+	color: black;
+}
+
+.country-selection-overlay_header {
+	width: 100%;
+	justify-content: center;
+}
+
+.country-selection-overlay_header h2 {
+	font-family: 'Nexa';
+	font-size: 22px;
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6.66px;
+	line-height: 28px;
+}
