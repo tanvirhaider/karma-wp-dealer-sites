@@ -1440,12 +1440,12 @@ input[type="radio"] {
 	max-width: 2000px;
 	margin: 0px auto;
 	padding-top: 50px;
+	padding: 0px;
 	font-size: 23px;
     letter-spacing: 9px;
     line-height: 34px;
-	padding: 0 0 12px;
 	font-weight: normal;
-    margin: 0px auto;
+	text-transform: uppercase;
 }
 
 #label_price_range, #price_range_box, #label_miles_range, #mileage_range_box, #price_range, #price-slider, #miles_range {
