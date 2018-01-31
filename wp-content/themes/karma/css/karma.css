@@ -1435,13 +1435,7 @@ input[type="radio"] {
 	padding-top: 50px;
 }
 
-.inventoryPage {
-	font-family: 'NexaLight', 'Nexa';
-	max-width: 2000px;
-    margin: 0px auto;
-}
-
-.inventoryPage h2 {
+.inventoryPageMain h2 {
 	font-family: 'NexaLight', 'Nexa';
 	max-width: 2000px;
 	margin: 0px auto;
@@ -1451,7 +1445,7 @@ input[type="radio"] {
     line-height: 34px;
 	padding: 0 0 12px;
 	font-weight: normal;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 #label_price_range, #price_range_box, #label_miles_range, #mileage_range_box, #price_range, #price-slider, #miles_range {
