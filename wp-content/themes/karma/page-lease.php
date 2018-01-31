@@ -22,7 +22,7 @@ get_header(); ?>
         <div class="country-selection-overlay_content">
             <div class="country-selection-overlay_header">
                 <h2>Select your region to continue</h2>
-                <img src="" />
+                <img width="100" class="country-gradientline" src="./wp-content/themes/karma/img/icons/GradientLine.png">
             </div>
             <div class="country-selection-overlay_button_row">
                 <div class="country-selection-overlay_button_USA">
