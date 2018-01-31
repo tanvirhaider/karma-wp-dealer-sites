@@ -1448,6 +1448,26 @@ input[type="radio"] {
 	text-transform: uppercase;
 }
 
+.contactPageMain  {
+	margin-left: auto;
+	margin-right: auto;
+	width: 94%;
+	padding-top: 50px;
+}
+
+.contactPageMain  h2 {
+	font-family: 'NexaLight', 'Nexa';
+	max-width: 2000px;
+	margin: 0px auto;
+	padding-top: 50px;
+	padding: 0px;
+	font-size: 23px;
+    letter-spacing: 9px;
+    line-height: 34px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
 #label_price_range, #price_range_box, #label_miles_range, #mileage_range_box, #price_range, #price-slider, #miles_range {
 	display: none;
 }
