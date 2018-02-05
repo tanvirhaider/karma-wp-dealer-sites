@@ -188,12 +188,12 @@
   }
   
   .button-row a {
-	  color: black;
+	  color: #fff;
   }
   
   .lease-page-button {
 	text-transform: uppercase;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	/* Arrow on right side of button */
 	/*    background: url(../img/icons/nav-arrow-white-right.png) no-repeat 92% center; */
 	background-size: 10px 20px;
@@ -212,7 +212,7 @@
   }
   
   .disclaimer-table-row p {
-	font-size: 10px;
+	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 1px;
 	font-family: 'Nexa';
@@ -3309,12 +3309,12 @@
   }
   
   .button-row a {
-	  color: black;
+	  color: #fff;
   }
   
   .lease-page-button {
 	text-transform: uppercase;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	/* Arrow on right side of button */
 	/*    background: url(../img/icons/nav-arrow-white-right.png) no-repeat 92% center; */
 	background-size: 10px 20px;
@@ -3333,7 +3333,7 @@
   }
   
   .disclaimer-table-row p {
-	font-size: 10px;
+	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 1px;
 	font-family: 'Nexa';
