@@ -1967,7 +1967,8 @@
   .page-template-page-contact h3 {
 	  font-size: 19px;
 	  letter-spacing: 4px;
-	  padding-bottom: 34px;
+		padding-bottom: 34px;
+		padding-top: 34px;
   }
   
   .addressHolder h3 {
@@ -4171,6 +4172,10 @@
 	line-height: 34px;
 	font-weight: normal;
 	text-transform: uppercase;
+}
+
+.contactPageMain h3 {
+	
 }
 
 .inventoryPageMain {
