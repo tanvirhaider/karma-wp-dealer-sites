@@ -352,9 +352,14 @@ img {
     letter-spacing: 3px;
     cursor: pointer;
     margin-right: 20px;
+    color: #424242;
 }
 
-.buttonStyle a, .buttonStyle a:link,.buttonStyle a:visited,.buttonStyle a:hover,.buttonStyle a:active {
+.buttonStyle a,
+.buttonStyle a:link,
+.buttonStyle a:visited,
+.buttonStyle a:hover,
+.buttonStyle a:active {
     color: #424242;
 }
 
