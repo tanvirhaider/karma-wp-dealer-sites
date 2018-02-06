@@ -354,6 +354,10 @@ img {
     margin-right: 20px;
 }
 
+.buttonStyle a, .buttonStyle a:link,.buttonStyle a:visited,.buttonStyle a:hover,.buttonStyle a:active {
+    color: #424242;
+}
+
 .footer-section {
     width: 100%;
     overflow: hidden;
