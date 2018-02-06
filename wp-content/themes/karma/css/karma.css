@@ -4192,3 +4192,16 @@
 	font-weight: normal;
 	margin: 0px auto;
 }
+
+.inventoryPage {
+	font-family: 'NexaLight', 'Nexa';
+	max-width: 2000px;
+	margin: 0px auto;
+}
+			
+.inventoryPage h2 {
+	font-family: 'NexaLight', 'Nexa';
+		max-width: 2000px;
+		margin: 0px auto;
+		padding-top: 50px;
+	}
