@@ -1,4 +1,3 @@
-
 #!/bin/sh
  
 ssh kennytaht45@thegocostaging.com <<EOF
