@@ -1,6 +1,6 @@
 		<footer>
 			<div class="karma_navigation">
-			<!-- TEST 123 -->
+			<!-- TEST 1234 -->
 				<div class="pageCenter">
 					<?php wp_nav_menu(array('theme_location' => 'bottom_menu_slot')); ?>
 					<hr />
