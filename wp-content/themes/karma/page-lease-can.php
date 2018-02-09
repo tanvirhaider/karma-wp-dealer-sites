@@ -76,7 +76,7 @@ get_header(); ?>
                         <div class="price-table-cell">0</div>
                     </div><!-- CLOSE APR -->
                     <div class="button-row">
-                        <a href="/drive/"><div class="lease-page-button">Ready to Drive</div></a>
+                        <a href="/testdrive/"><div class="lease-page-button">Ready to Drive</div></a>
                      </div>
                     <div class="disclaimer-table-row"><!-- START Disclaimer Row -->
                         <p>*Available for qualified customers as approved by MVL Financial Services Limited. Not all applicants will qualify. Cash due at signing includes minimum $10,000 down payment, $495 application fee, first month’s lease payment, tax, title, license and/or registration fees. Monthly payments are based on a MSRP of $150,800 (includes destination fee), $10,000 manufacturer credit and $10,000 down payment. Based on a representative transaction, actual MSRP and lease terms may vary. Lower monthly payments available with higher down payment. No security deposit based on 16,000 kilometers per year and $0.35/km excess kilometer charge. Lessee is responsible for insurance, maintenance and repairs and excess wear and tear as defined in the lease contract. Option to purchase at lease end for an amount to be determined at lease signing. Color shown may not be available. For details on vehicle specifications, standard features and current availability of equipment in your area, please contact your Karma Automotive dealer. Offer valid only at Karma Toronto and Karma Vancouver through March 31st, 2018.</p>
