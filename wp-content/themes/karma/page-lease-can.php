@@ -49,10 +49,10 @@ get_header(); ?>
                 <div class="price-table-row hide-on-mobile">
                     <div class="monthly-payment">
                         <div class="monthly-table-title">Monthly Payment</div>
-                        <div class="price-table-cell">C$1,791/mo</div>
-                        <div class="price-table-cell">C$1,560/mo</div>
-                        <div class="price-table-cell">C$1,495/mo</div>
-                        <div class="price-table-cell">C$1,416/mo</div>
+                        <div class="price-table-cell">C$1,999/mo</div>
+                        <div class="price-table-cell">C$1,699/mo</div>
+                        <div class="price-table-cell">C$1,599/mo</div>
+                        <div class="price-table-cell">C$1,499/mo</div>
                     </div><!-- CLOSE Monthly Payment -->
                     <div class="leasing-terms">
                         <div class="table-title">Leasing Term (mos)</div>
@@ -91,19 +91,19 @@ get_header(); ?>
                     <th class="mobile-price-table-title">Leasing Term (mos)</th>
                     </tr>
                     <tr class="mobile-price-table-row">
-                    <td>C$1,791/mo</td>
+                    <td>C$1,999/mo</td>
                     <td>24</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>C$1,560/mo</td>
+                        <td>C$1,699/mo</td>
                         <td>36</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>C$1,495/mo</td>
+                        <td>C$1,599/mo</td>
                         <td>48</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>C$1,416/mo</td>
+                        <td>C$1,499/mo</td>
                         <td>60</td>
                     </tr>
                     <tr class="mobile-price-table-row">
