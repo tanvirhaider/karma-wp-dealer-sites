@@ -3,11 +3,11 @@
 ssh kennytaht45@thegocostaging.com <<EOF
   cd ~/public_html/karma/staging/karma_oc/
   git fetch
-  git pull origin staging
-  git checkout staging
+  git pull origin master
+  git checkout master
   cd ~/public_html/karma/staging/karma_of_vancouver/
   git fetch
-  git pull origin staging
-  git checkout staging
+  git pull origin master
+  git checkout master
   exit
 EOF
