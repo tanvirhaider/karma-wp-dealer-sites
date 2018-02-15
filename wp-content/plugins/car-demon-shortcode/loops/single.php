@@ -100,7 +100,7 @@ function cds_display_single_car($post_id) {
 
 	setlocale(LC_MONETARY, 'en_US');
 
-	$vehicle_price = money_format('$%i', $car['price']);//RS: remove trailing zeros
+	$vehicle_price = money_format('$%.0i', $car['price']);//RS: remove trailing zeros
 
 
 
