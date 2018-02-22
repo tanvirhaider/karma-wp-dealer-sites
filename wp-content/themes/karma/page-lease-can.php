@@ -32,14 +32,14 @@ get_header(); ?>
                 <div class="price-car-row">
                     <div class="car-price-col">
                         <div class="price-per-month">
-                            <p><strong>C$1,560*</strong></p>
+                            <p><strong>$1,699*</strong></p>
                         </div>
                         <div class="tax-36-month">
                             <p>+tax/36 mos.</p>
                         </div>
                     </div>
                     <div class="car-image-col">
-                        <img src="./wp-content/themes/karma/img/lease-page/karma-kar.jpg">
+                        <img src="./wp-content/themes/karma/img/lease-page/revero.png">
                     </div>
                 </div>
                     
@@ -49,10 +49,10 @@ get_header(); ?>
                 <div class="price-table-row hide-on-mobile">
                     <div class="monthly-payment">
                         <div class="monthly-table-title">Monthly Payment</div>
-                        <div class="price-table-cell">C$1,999/mo</div>
-                        <div class="price-table-cell">C$1,699/mo</div>
-                        <div class="price-table-cell">C$1,599/mo</div>
-                        <div class="price-table-cell">C$1,499/mo</div>
+                        <div class="price-table-cell">$1,999/mo</div>
+                        <div class="price-table-cell"><strong>$1,699/mo</strong></div>
+                        <div class="price-table-cell">$1,599/mo</div>
+                        <div class="price-table-cell">$1,499/mo</div>
                     </div><!-- CLOSE Monthly Payment -->
                     <div class="leasing-terms">
                         <div class="table-title">Leasing Term (mos)</div>
@@ -91,23 +91,23 @@ get_header(); ?>
                     <th class="mobile-price-table-title">Leasing Term (mos)</th>
                     </tr>
                     <tr class="mobile-price-table-row">
-                    <td>C$1,999/mo</td>
+                    <td>$1,999/mo</td>
                     <td>24</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>C$1,699/mo</td>
-                        <td>36</td>
+                        <td><strong>$1,699/mo</strong></td>
+                        <td><strong>36</strong></td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>C$1,599/mo</td>
+                        <td>$1,599/mo</td>
                         <td>48</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>C$1,499/mo</td>
+                        <td>$1,499/mo</td>
                         <td>60</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                    <th class="mobile-price-table-title">Annual Mileage</th>
+                    <th class="mobile-price-table-title">Annual Kilometers</th>
                     <th class="mobile-price-table-title">APR %</th>                
                     </tr>
                     <tr class="mobile-price-table-row">
