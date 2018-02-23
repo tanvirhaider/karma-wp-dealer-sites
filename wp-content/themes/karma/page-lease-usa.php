@@ -1,7 +1,11 @@
 <?php
 	/*
 		Template Name: Lease Page USA Template
-	*/
+    */
+    
+    /*
+        Author: Benjamin Spak
+    */
 get_header(); ?>
 
 <div class="leasePageMain pageCenter">
