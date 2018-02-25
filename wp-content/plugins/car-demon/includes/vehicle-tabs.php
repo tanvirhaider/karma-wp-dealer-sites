@@ -253,11 +253,10 @@ function get_tab_specs( $vin_query_decode, $vehicle_vin, $post_id ) {
         $x .= '</tr>';
     }
 
+    // NEW CAR FIELDS START HERE...
     $x .= custom_spec_field( $post_id, 'Wheels', 'wheels', 'even', $vin_query_decode, $restrict );
     $x .= custom_spec_field( $post_id, 'Calipers', 'brakes', 'even', $vin_query_decode, $restrict );
-
-    // NEW CAR FIELDS START HERE...
-
+    $x .= custom_spec_field( $post_id, 'Lease', 'lease', 'even', $vin_query_decode, $restrict );
     // NEW CAR FIELDS END HERE...
 
 

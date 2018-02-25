@@ -711,6 +711,7 @@ function cd_get_car( $post_id ) {
 
     $x['wheels'] = strip_tags( get_post_meta( $post_id, "wheels", true ) );
     $x['brakes'] = strip_tags( get_post_meta( $post_id, "brakes", true ) );
+    $x['lease'] = strip_tags( get_post_meta( $post_id, "lease", true ) );
 
     // NEW CAR FIELDS END HERE...
 
