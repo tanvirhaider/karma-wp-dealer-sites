@@ -1458,12 +1458,13 @@
   .car_item .mileage-together,
   .car_item .exterior_color-together,
   .car_item .vin-together,
-  .car_item .price-together {
+  .car_item .price-together,
+  .car_item .lease-together {
 	   display: flex;
 	   flex-direction: row;
 	   padding-left: 10px;
 	   padding-right: 10px;
-	   width: 200px;
+	   width: 220px;
 	   height: 15px;
 	   align-items: center;
 	   display:flex;
@@ -1510,7 +1511,8 @@
   .description_label.mileage,
   .description_label.exterior_color,
   .description_label.vin,
-  .description_label.car_price {
+  .description_label.car_price,
+  .description_label.lease {
 	  color: black;
 	  font-size: 12px;
 	  font-family: 'Nexa';
@@ -1531,7 +1533,8 @@
   .description_text.mileage,
   .description_text.exterior_color,
   .description_text.vin,
-  .description_text.car_price {
+  .description_text.car_price,
+  .description_text.lease {
 	  color: rgb(54, 54, 54);
 	  font-size: 12px;
 	  font-family: 'NexaLight';

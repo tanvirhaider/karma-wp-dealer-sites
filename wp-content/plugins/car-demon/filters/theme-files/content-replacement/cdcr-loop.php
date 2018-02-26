@@ -399,14 +399,19 @@ function cdcr_loop($content, $post_id) {
 
 			$x .= '<div class="description_text car_price">'. $vehicle_price.'</div>';
 
-
-
 			$x .= '</div>';
+
+			$lease = $car['lease'];
+			if (!empty($lease)) {
+				$x .= '<div class="lease-together">';
+				$x .= '<div class="description_label lease">Lease:</div>';
+				$x .= '<div class="description_text lease">'. $lease . '</div>';
+				$x .= '</div>';
+			}
 
 		$x .= '</div>';
 
 	$x .= '</div>';
-
 
 
 	$contact_link = 'contact';
