@@ -1,7 +1,7 @@
 #!/bin/sh
  
-ssh s46@64.91.247.91 <<EOF
-  cd /home/s46/html/
+ssh s1063@64.91.247.91 <<EOF
+  cd /home/s1063/html/
   git pull origin master
   exit
 EOF
