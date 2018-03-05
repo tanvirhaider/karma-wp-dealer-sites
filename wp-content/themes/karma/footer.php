@@ -5,6 +5,7 @@
 					<?php wp_nav_menu(array('theme_location' => 'bottom_menu_slot')); ?>
 					<hr />
 					<!-- RS: added copyright //-->
+                   <!-- Test //-->
                     <div class="footer-copy-social-container">
 						<div class="copyright">
 							Karma Automotive™ 2018

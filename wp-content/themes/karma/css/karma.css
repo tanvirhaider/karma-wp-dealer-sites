@@ -3511,7 +3511,7 @@
 	  padding-bottom: 5%;
 	}
 	.car-image-col img {
-	  margin-top: 0px;
+	  margin-top: 0px !important;
 	  width: 100%;
 	}
 	.table-title {
@@ -3628,7 +3628,7 @@
 	}
 	.car-image-col img {
 	  margin-top: 0px;
-	  width: 100%;
+	  width: 80%;
 	}
   }
   @media only screen and (min-width: 1081px) and (max-width: 1920px) {  
@@ -4209,4 +4209,32 @@
 		max-width: 2000px;
 		margin: 0px auto;
 		padding-top: 50px;
+}
+
+/*STYLES ADDED BY SWYFT INTERACTIVE*/
+@media (max-width:780px) {
+.leasing-page-container {
+    background-color: #000!important;
+    background: url(../img/lease-page/lease-bkgd-mobile.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+}
+
+@media (min-width:781px) {
+.leasing-page-container {
+	background-color: #000!important;
+	background: url(../img/lease-page/lease-bkgd.jpg) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    /*background-position: 0 39%;*/
+}
+}
+
+.car-image-col img {
+    margin-top: -5%;
 }
