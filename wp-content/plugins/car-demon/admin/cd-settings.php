@@ -1412,6 +1412,7 @@ function get_default_field_labels() {
 	$labels['rebates'] = __( 'Rebates', 'car-demon' );
 	$labels['discount'] = __( 'Discount', 'car-demon' );
 	$labels['price'] = __( 'Price', 'car-demon' );
+	$labels['lease'] = __( 'Lease', 'car-demon' );
 	//= These fields are not changable at this point
 	$labels['condition'] = __( 'Condition', 'car-demon' );
 	$labels['transmission'] = __( 'Transmission', 'car-demon' );

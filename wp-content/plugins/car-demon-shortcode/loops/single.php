@@ -101,6 +101,7 @@ function cds_display_single_car($post_id) {
 	setlocale(LC_MONETARY, 'en_US');
 
 	$vehicle_price = money_format('$%.0i', $car['price']);//RS: remove trailing zeros
+	$lease_price = $car['lease'];
 
 
 
@@ -175,8 +176,10 @@ function cds_display_single_car($post_id) {
 							$html .='<li><label>'.$template['labels']['price'].'</label> '.$vehicle_price.'</li>';
 
 						}
-
 						
+						if ($template['show_hide']['lease'] != true && !empty($lease_price)) {
+							$html .='<li><label>'.$template['labels']['lease'].'</label> '.$lease_price.'</li>';
+						}
 
 						$html .='<!--li><label>'.__('Engine:', 'car-demon-shortcode').'</label> '.$vehicle_details['engine'].'</li-->';
 
